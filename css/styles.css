@@ -1,11 +1,11 @@
-/*  
+/*
 	-------------------------------------------------------------
 	Cascade Style Sheet - Project: Creative Single Page Portfolio
 	Description: Html / Css / jQuery template
 	Author: pezflash - http: //www.themeforest.net/user/pezflash
 	Version: 1.0
 	-------------------------------------------------------------
-*/ 
+*/
 
 
 /* ------------------ Global ------------------ */
@@ -37,10 +37,10 @@ strong {
 /* ---------------- End Global ---------------- */
 
 
-	
-	
-		
-/* ------------------ Header ------------------ */	
+
+
+
+/* ------------------ Header ------------------ */
 #header {
 	position: absolute;
 	padding: 20px 0px 0px 30px;
@@ -52,7 +52,7 @@ strong {
 #header .title {
 	font-size: 55px;
 	font-weight: 600;
-	color: #f30b27;	
+	color: #f30b27;
 	margin: 0px 0px 0px -2px;
 	text-shadow: 0px 2px 3px #000;
 	display: block;
@@ -71,7 +71,7 @@ strong {
 #header .subtitle {
 	font-size: 16px;
 	font-weight: 300;
-	color: #fff;	
+	color: #fff;
 	margin: -10px 0px 0px 0px;
 	text-shadow: 0px 2px 2px #000;
 	display: block;
@@ -107,15 +107,15 @@ strong {
 	margin: 0px 15px 0px 0px;
 	padding: 1px 5px 0px 5px;
 	float: left;
-	
+
 	background: url(../images/alpha.png);
 	background: rgba(0, 0, 0, 0.8) url();
 }
 
 #menu ul li a {
-	color: #f30b27;	
+	color: #f30b27;
 }
-	
+
 #menu ul li a:hover {
 	color: #fff;
 }
@@ -141,7 +141,7 @@ strong {
 
 
 
-	
+
 
 /* ------------------- Base ------------------- */
 #base {
@@ -153,7 +153,7 @@ strong {
 	left: -784px;
 	opacity: 0;
 	z-index: 3;
-	
+
 	background: url(../images/alpha.png);
 	background: rgba(0, 0, 0, 0.9) url();
 }
@@ -174,7 +174,7 @@ strong {
 
 
 
-/* ------------------- Slider ---------------- */	
+/* ------------------- Slider ---------------- */
 #media {
 	position: absolute;
 	padding: 0px 0px 0px 30px;
@@ -197,7 +197,7 @@ strong {
 
 
 
-/* ------------------ About ------------------ */	
+/* ------------------ About ------------------ */
 #o-mne {
 	position: absolute;
 	padding: 0px 0px 0px 30px;
@@ -211,7 +211,7 @@ strong {
 	font-size: 21px;
 	font-weight: 300;
 	line-height: 27px;
-	color: #fff;	
+	color: #fff;
 }
 
 #o-mne .quoted .cite-asterisk {
@@ -254,7 +254,7 @@ strong {
 #o-mne .recents .title {
 	font-size: 14px;
 	font-weight: 700;
-	color: #f30b27;	
+	color: #f30b27;
 	line-height: 28px;
 }
 
@@ -301,7 +301,7 @@ strong {
 
 
 
-/* ----------------- Portfolio --------------- */	
+/* ----------------- Portfolio --------------- */
 #galerie {
 	position: absolute;
 	padding: 0px 0px 0px 30px;
@@ -385,7 +385,7 @@ strong {
 
 
 
-/* ----------------- Contact ----------------- */	
+/* ----------------- Contact ----------------- */
 #kontakt {
 	position: absolute;
 	padding: 0px 0px 0px 30px;
@@ -399,7 +399,7 @@ strong {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 17px;
-	color: #fff;	
+	color: #fff;
 	float: left;
 	padding: 10px 0px 0px 0px;
 	width: 200px;
@@ -408,7 +408,7 @@ strong {
 #kontakt .paragraph_title {
 	font-size: 14px;
 	font-weight: 700;
-	color: #f30b27;	
+	color: #f30b27;
 	line-height: 32px;
 }
 
@@ -435,7 +435,7 @@ strong {
 #kontakt a {
 	color: #f30b27;
 }
-	
+
 #kontakt a:hover {
 	text-decoration: underline;
 }
@@ -514,7 +514,7 @@ strong {
 
 
 
-/* ------------------ Reel ------------------- */	
+/* ------------------ Reel ------------------- */
 #reel {
 	position: absolute;
 	padding: 0px 0px 0px 30px;
@@ -528,7 +528,7 @@ strong {
 	font-size: 21px;
 	font-weight: 300;
 	line-height: 24px;
-	color: #fff;	
+	color: #fff;
 	text-shadow: 0px 2px 2px #000;
 }
 
@@ -548,7 +548,7 @@ strong {
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 17px;
-	color: #666666;	
+	color: #666666;
 	padding: 20px 0px 0px 0px;
 	width: 500px;
 	float: left;
@@ -560,7 +560,7 @@ strong {
 
 
 
-/* ------------------ Awards ------------------ */	
+/* ------------------ Awards ------------------ */
 #awards {
 	position: absolute;
 	padding: 0px 0px 0px 30px;
@@ -574,13 +574,13 @@ strong {
 	font-size: 21px;
 	font-weight: 300;
 	line-height: 24px;
-	color: #fff;	
+	color: #fff;
 	text-shadow: 0px 2px 2px #000;
 }
 
 #awards .years {
 	font-size: 27px;
-	color: #404040;	
+	color: #404040;
 }
 
 #awards .logos img {
@@ -591,7 +591,7 @@ strong {
 	font-size: 12px;
 	font-weight: 300;
 	line-height: 17px;
-	color: #666666;	
+	color: #666666;
 	padding: 20px 0px 0px 0px;
 	width: 630px;
 	float: left;
@@ -613,7 +613,7 @@ strong {
 	width: 533px;
 	opacity: 0;
 	z-index: 1;
-	
+
 	background: url(../images/alpha.png);
 	background: rgba(0, 0, 0, 0.8) url();
 }
@@ -626,6 +626,7 @@ strong {
 }
 
 #alert .title2 {
+  display: block;
 	font-size: 25px;
 	font-weight: 600;
 	color: #f30b27;
@@ -655,7 +656,7 @@ strong {
 	padding: 10px 10px 10px 10px;
 	opacity: 0;
 	z-index: 2;
-	
+
 	background: url(../images/alpha.png);
 	background: rgba(0, 0, 0, 0.8) url();
 }
@@ -740,14 +741,14 @@ strong {
 	-moz-box-shadow: 0 2px 2px #000; -webkit-box-shadow: 0 2px 2px #000; box-shadow: 0 2px 2px #000;
 	border: 0px solid #FFF;
 }
-	
+
 #social ul li a:hover img {
-	border: 0px solid #f30b27;	
+	border: 0px solid #f30b27;
 }
 /* ---------------- End Social ---------------- */
 
 
-/*  
+/*
 	-------------------------------------------------------------
 	END CSS
-*/ 
+*/
