@@ -1,0 +1,753 @@
+/*  
+	-------------------------------------------------------------
+	Cascade Style Sheet - Project: Creative Single Page Portfolio
+	Description: Html / Css / jQuery template
+	Author: pezflash - http: //www.themeforest.net/user/pezflash
+	Version: 1.0
+	-------------------------------------------------------------
+*/ 
+
+
+/* ------------------ Global ------------------ */
+body {
+	background: #000;
+	text-align: left;
+	font: 12px 'Signika', sans-serif;
+	min-width: 960px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	outline: 0;
+}
+
+strong {
+	font-weight: 700;
+}
+
+.hidden {
+	display:none;
+}
+/* ---------------- End Global ---------------- */
+
+
+	
+	
+		
+/* ------------------ Header ------------------ */	
+#header {
+	position: absolute;
+	padding: 20px 0px 0px 30px;
+	z-index: 6;
+}
+
+/*
+
+#header .title {
+	font-size: 55px;
+	font-weight: 600;
+	color: #f30b27;	
+	margin: 0px 0px 0px -2px;
+	text-shadow: 0px 2px 3px #000;
+	display: block;
+}
+
+*/
+
+#header .title {
+    display: block;
+    width: 618px;
+    height: 91px;
+    text-indent: -999px;
+    background: transparent url(../images/title.png) no-repeat 0 0;
+}
+
+#header .subtitle {
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;	
+	margin: -10px 0px 0px 0px;
+	text-shadow: 0px 2px 2px #000;
+	display: block;
+}
+
+/* IEXPLORER SHADOW FIX - DISABLED
+.ie #header .subtitle {
+	filter: dropshadow(color=#000000, offx=0, offy=2);
+}
+*/
+/* ---------------- End Header ---------------- */
+
+
+
+
+/* ------------------- Menu ------------------- */
+#menu {
+	position: absolute;
+	margin: 115px 0px 0px 30px;
+	width: 800px;
+	z-index: 5;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li {
+	list-style: none;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0px 15px 0px 0px;
+	padding: 1px 5px 0px 5px;
+	float: left;
+	
+	background: url(../images/alpha.png);
+	background: rgba(0, 0, 0, 0.8) url();
+}
+
+#menu ul li a {
+	color: #f30b27;	
+}
+	
+#menu ul li a:hover {
+	color: #fff;
+}
+
+#menu .disabled {
+	color: #fff;
+	cursor: default;
+}
+
+#marker {
+	position: absolute;
+	top: 125px;
+	left: -10px;
+	z-index: 4;
+}
+
+#marker img {
+	width: 10px;
+	height: 1px;
+}
+/* ----------------- End Menu ----------------- */
+
+
+
+
+	
+
+/* ------------------- Base ------------------- */
+#base {
+	position: absolute;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 784px;
+	height: 100%;
+	left: -784px;
+	opacity: 0;
+	z-index: 3;
+	
+	background: url(../images/alpha.png);
+	background: rgba(0, 0, 0, 0.9) url();
+}
+
+#base .close {
+	position: relative;
+	float: right;
+	top: 40px;
+	right: 40px;
+}
+
+.ie #base .close img {
+	border: 0px solid #000;
+}
+/* ----------------- End Base ----------------- */
+
+
+
+
+
+/* ------------------- Slider ---------------- */	
+#media {
+	position: absolute;
+	padding: 0px 0px 0px 30px;
+	margin: -20px 0px 0px 0px;
+	top: 210px;
+	opacity: 0;
+	//display: none;
+    left: -9999px;
+	z-index: 7;
+}
+
+#gallery {
+    width: 700px;
+    height: 390px;
+}
+/* --------------- End Slider ---------------- */
+
+
+
+
+
+
+/* ------------------ About ------------------ */	
+#o-mne {
+	position: absolute;
+	padding: 0px 0px 0px 30px;
+	top: 210px;
+	opacity: 0;
+	display: none;
+	z-index: 8;
+}
+
+#o-mne .quoted {
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 27px;
+	color: #fff;	
+}
+
+#o-mne .quoted .cite-asterisk {
+    color: #f30b27;
+}
+
+#o-mne .quoted .cite-text {
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.25;
+}
+
+#o-mne .scroll-text {
+	position: absolute;
+	top: 155px;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 16px;
+	color: #fff;
+	width: 480px;
+	height: 260px;
+	overflow: auto;
+	padding: 7px 16px 0px 0px;
+	float: left;
+}
+
+#o-mne .scroll-text .subtitle {
+	color: #f30b27;
+	font-size: 14px;
+	font-weight: 700;
+	display: block;
+}
+
+#o-mne .recents {
+	position: absolute;
+	top: 148px;
+	left: 540px;
+}
+
+#o-mne .recents .title {
+	font-size: 14px;
+	font-weight: 700;
+	color: #f30b27;	
+	line-height: 28px;
+}
+
+#o-mne .recents ul li {
+	list-style: none;
+}
+
+#o-mne .recents ul li a {
+	color: #797979;
+}
+
+#o-mne .recents ul li a:hover {
+	color: #f30b27;
+}
+
+#o-mne .recents img {
+	margin: 7px 0px 2px 0px;
+	display: block;
+}
+
+.ie #o-mne .recents img {
+	border: 0px solid #000;
+}
+
+#o-mne .recents .rollover {
+	position:relative;
+	float:left;
+}
+
+#o-mne .recents .rollover span {
+	background-image: url('../images/zoom_icon.png');
+	background-repeat: no-repeat;
+	width: 149px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	display: none;
+	position:absolute;
+	margin: 7px 0px 2px 0px;
+}
+/* ---------------- End About ---------------- */
+
+
+
+
+
+/* ----------------- Portfolio --------------- */	
+#galerie {
+	position: absolute;
+	padding: 0px 0px 0px 30px;
+	top: 210px;
+	width: 700px;
+	opacity: 0;
+	display: none;
+	z-index: 9;
+}
+
+#galerie ul {
+	margin: 0;
+	overflow: hidden;
+	float: left;
+	padding: 0;
+}
+
+#galerie ul li {
+	list-style: none;
+	margin: 0px 20px 0px 0px;
+	float: left;
+	position: relative;
+}
+
+
+#galerie span {
+	background-image: url('../images/zoom_icon_2.png');
+	background-repeat: no-repeat;
+	width: 122px;
+	height: 107px;
+	left: 0px;
+	top: 0px;
+	display: none;
+	position:absolute;
+	margin: 4px 0px 0px 4px;
+}
+
+#galerie .categories {
+	background-color: #404040;
+	width: 278px;
+	height: 107px;
+	position: relative;
+	margin: 0px 0px 25px 0px;
+	border: 4px solid #282828;
+}
+
+#galerie .categories img {
+	width: 122px;
+	height: 107px;
+	position: absolute;
+	margin: 0px 0px 0px 0px;
+}
+.ie #galerie .categories img {
+	border: 0px solid #000;
+}
+
+#galerie .categories .title {
+	font-size: 14px;
+	font-weight: 700;
+	color: #f30b27;
+	margin: 17px 0px 0px 140px;
+	display: block;
+}
+
+#galerie .categories .description {
+	font-size: 11px;
+	color: #fff;
+	margin: 0px 10px 0px 140px;
+	display: block;
+}
+
+#galerie .categories .number {
+	font-size: 11px;
+	color: #969696;
+	margin: 15px 10px 0px 140px;
+	display: block;
+}
+/* -------------- End Portfolio -------------- */
+
+
+
+
+
+/* ----------------- Contact ----------------- */	
+#kontakt {
+	position: absolute;
+	padding: 0px 0px 0px 30px;
+	top: 210px;
+	opacity: 0;
+	display: none;
+	z-index: 10;
+}
+
+#kontakt .address {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	color: #fff;	
+	float: left;
+	padding: 10px 0px 0px 0px;
+	width: 200px;
+}
+
+#kontakt .paragraph_title {
+	font-size: 14px;
+	font-weight: 700;
+	color: #f30b27;	
+	line-height: 32px;
+}
+
+#kontakt .map {
+	font-size: 11px;
+	color: #fff;
+	line-height: 30px;
+	padding: 0px 5px 1px 5px;
+	background: url(../images/alpha.png);
+	background: rgba(37, 37, 37, 0.8) url();
+}
+
+#kontakt .divider {
+	height: 223px;
+	border-left:  1px solid #474747;
+	float: left;
+	margin: 60px 0px 0px 50px;
+}
+
+.ie #kontakt .divider {
+	height: 195px;
+}
+
+#kontakt a {
+	color: #f30b27;
+}
+	
+#kontakt a:hover {
+	text-decoration: underline;
+}
+
+#kontakt .form {
+	float: left;
+	margin: 55px 0px 0px 40px;
+}
+
+#kontakt hr {
+	clear: both;
+	border-bottom: 0;
+	border-top: 2px solid #4e4e4e;
+	border-right: 0;
+	border-left: 0;
+	min-height: 0px;
+	height: 1px;
+}
+
+#kontakt .form  .fields {
+	font: 12px 'Signika', sans-serif;
+	color: #fff;
+	background-color: transparent;
+	border-width: 0px;
+	border-bottom: 1px solid #666666;
+	padding: 13px 0px 3px 0px;
+	margin: 0px 0px 3px 0px;
+	width: 250px;
+	resize: none;
+	overflow: auto;
+}
+
+#kontakt .form .button {
+	font: 13px 'Signika', sans-serif;
+	font-weight: 600;
+	color: #fff;
+    margin: 0px 0px 0px 0px;
+	padding: 1px 5px 1px 5px;
+    background: url(../images/alpha.png);
+	background: rgba(37, 37, 37, 0.8) url();
+    border: none;
+    cursor: pointer;
+}
+
+#kontakt .form .button a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#kontakt .form .button a:hover {
+	color: #f30b27;
+}
+
+#kontakt .form .loader_message {
+	font: 11px 'Signika', sans-serif;
+	font-weight: 300;
+	color: #f30b27;
+    margin-top: 4px;
+	position: relative;
+	float: right;
+}
+
+#kontakt .form .loader_icon {
+	-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
+	background: #000 url(../images/preload.gif) no-repeat center center;
+	background: rgba(0, 0, 0, 0.7) url(../images/preload.gif) no-repeat center center;
+	height: 32px;
+	width: 32px;
+	position: relative;
+	margin: 10px 0px 0px 0px;
+	display: none;
+}
+/* --------------- End Contact --------------- */
+
+
+
+
+
+/* ------------------ Reel ------------------- */	
+#reel {
+	position: absolute;
+	padding: 0px 0px 0px 30px;
+	top: 210px;
+	opacity: 0;
+	display: none;
+	z-index: 11;
+}
+
+#reel .title {
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 24px;
+	color: #fff;	
+	text-shadow: 0px 2px 2px #000;
+}
+
+#reel .title .date {
+	color: #404040;
+}
+
+#reel .video {
+	margin: 5px 0px 0px 0px;
+}
+
+#reel .video .frame {
+	border: solid 0px #000;
+}
+
+#reel .text {
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 17px;
+	color: #666666;	
+	padding: 20px 0px 0px 0px;
+	width: 500px;
+	float: left;
+}
+/* ---------------- End Reel ---------------- */
+
+
+
+
+
+
+/* ------------------ Awards ------------------ */	
+#awards {
+	position: absolute;
+	padding: 0px 0px 0px 30px;
+	top: 210px;
+	opacity: 0;
+	display: none;
+	z-index: 12;
+}
+
+#awards .title {
+	font-size: 21px;
+	font-weight: 300;
+	line-height: 24px;
+	color: #fff;	
+	text-shadow: 0px 2px 2px #000;
+}
+
+#awards .years {
+	font-size: 27px;
+	color: #404040;	
+}
+
+#awards .logos img {
+	margin: 20px 0px 0px 0px;
+}
+
+#awards .text {
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 17px;
+	color: #666666;	
+	padding: 20px 0px 0px 0px;
+	width: 630px;
+	float: left;
+}
+/* ---------------- End Awards ---------------- */
+
+
+
+
+
+
+/* ------------------ Alert ------------------- */
+#alert {
+	position: absolute;
+	display: none;
+	bottom: 0px;
+	margin: 0px 0px 0px 30px;
+	padding: 15px 20px 15px 20px;
+	width: 533px;
+	opacity: 0;
+	z-index: 1;
+	
+	background: url(../images/alpha.png);
+	background: rgba(0, 0, 0, 0.8) url();
+}
+
+#alert .title1 {
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	text-shadow: 0px 2px 1px #000;
+}
+
+#alert .title2 {
+	font-size: 25px;
+	font-weight: 600;
+	color: #f30b27;
+	text-shadow: 0px 2px 1px #000;
+}
+#alert .close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.ie #alert .close img {
+	border: 0px solid #000;
+}
+/* ---------------- End Alert ----------------- */
+
+
+
+
+
+
+/* ------------------ Thumbs ------------------ */
+#thumbs {
+	position: absolute;
+	bottom: 30px;
+	margin: 0px 0px 0px 30px;
+	padding: 10px 10px 10px 10px;
+	opacity: 0;
+	z-index: 2;
+	
+	background: url(../images/alpha.png);
+	background: rgba(0, 0, 0, 0.8) url();
+}
+
+#thumbs ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	float: left;
+	padding: 10px;
+}
+
+#thumbs ul li {
+	list-style: none;
+	margin: 0px 6px 0px 0px;
+	float: left;
+	position: relative;
+}
+
+#thumbs ul li img {
+	-moz-box-shadow: 0 3px 3px #000; -webkit-box-shadow: 0 3px 3px #000; box-shadow: 0 3px 2px #000;
+	border: 1px solid #3b3b3b;
+}
+
+#thumbs .rollover {
+	position:relative;
+	float:left;
+}
+
+#thumbs .rollover span {
+	background-image: url('../images/thumb_marker.png');
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+	display: none;
+	position:absolute;
+}
+
+#thumbs .playpause {
+	margin: 34px 3px 0px 2px;
+	cursor: pointer;
+}
+
+.ie #thumbs .playpause {
+	border: 0px solid #000;
+}
+/* ---------------- End Thumbs ---------------- */
+
+
+
+
+
+/* ------------------ Social ------------------ */
+#social {
+	position: absolute;
+	right: 10px;
+	bottom: 17px;
+	float: right;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 0px 0px;
+	z-index: 6;
+}
+
+#social ul {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	float: left;
+	padding: 10px;
+}
+
+#social ul li {
+	list-style: none;
+	margin: 0px 6px 0px 0px;
+	float: left;
+	position: relative;
+}
+
+#social ul li a img {
+	-moz-box-shadow: 0 2px 2px #000; -webkit-box-shadow: 0 2px 2px #000; box-shadow: 0 2px 2px #000;
+	border: 0px solid #FFF;
+}
+	
+#social ul li a:hover img {
+	border: 0px solid #f30b27;	
+}
+/* ---------------- End Social ---------------- */
+
+
+/*  
+	-------------------------------------------------------------
+	END CSS
+*/ 
